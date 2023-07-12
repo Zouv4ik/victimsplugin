@@ -1,0 +1,11 @@
+name: Victims
+version: '${project.version}'
+main: ru.victims.plugin.VictimPlugin
+api-version: 1.19
+authors: [ Zouv ]
+description: Victims plugin by Zouv
+commands:
+  victimstart:
+    description: Start a victim game
+    usage: /victimstart
+    permission: victims.victimstar
